@@ -1,24 +1,27 @@
-import logo from './logo.svg';
-import './App.css';
+import AppBar from "./Components/AppBar";
+import 'bootstrap/dist/css/bootstrap.min.css';
+import BannerContent from "./Components/BannerContent";
+import LabTest from "./Components/LabTest";
+import LabStudies from "./Components/LabStudies";
+import Experts from "./Components/Experts";
+import Explore from "./Components/Explore";
+import SecondAppBar from "./Components/SecondAppBar";
+import ResearchPaper from "./Components/ResearchPaper";
+import Footer from "./Components/Footer";
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <>
+    <AppBar/>
+    <SecondAppBar/>
+    <BannerContent/>
+    <LabTest/>
+    <LabStudies/>
+    <Experts/>
+    <Explore/>
+    <ResearchPaper/>
+    <Footer/>
+    </>
   );
 }
 
