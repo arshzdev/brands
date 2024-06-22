@@ -178,3 +178,8 @@ code {
 .slick-slide > div {
   margin: 0 10px;
 }
+.nav-link {
+  white-space: nowrap;
+  display: flex;
+  align-items: center;
+}
