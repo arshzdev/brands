@@ -15,18 +15,14 @@ const Experts = () => {
         slidesToScroll: 1,
         nextArrow: (
             <div className="next-slick-arrow">
-                <svg xmlns="http://www.w3.org/2000/svg" className="" stroke="currentColor" fill="green" strokeWidth="2" viewBox="0 0 16 16" width="30" >
-                        <path fillRule="evenodd" d="M7.354 4.354a.5.5 0 0 1 .707 0l4 4a.5.5 0 0 1 0 .707l-4 4a.5.5 0 0 1-.708-.708L11.293 8 7.354 4.354a.5.5 0 0 1 0-.708z"></path>
-                    </svg>
+                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="green"><path d="M7.293 4.707 14.586 12l-7.293 7.293 1.414 1.414L17.414 12 8.707 3.293 7.293 4.707z"/></svg>
                 {/* <Image src={require('../assets/RightArrow.png')} className=''></Image> */}
             </div>
         ),
 
         prevArrow: (
             <div className="next-slick-arrow">
-                <svg xmlns="http://www.w3.org/2000/svg" className="" stroke="currentColor" fill="green" strokeWidth="2" viewBox="0 0 16 16" width="30">
-                    <path fillRule="evenodd" d="M8.646 11.646a.5.5 0 0 1-.708 0l-4-4a.5.5 0 0 1 0-.708l4-4a.5.5 0 0 1 .708.708L5.707 8l2.646 2.646a.5.5 0 0 1 0 .708z" />
-                </svg>
+                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="green"><path d="M15.293 3.293 6.586 12l8.707 8.707 1.414-1.414L9.414 12l7.293-7.293-1.414-1.414z"/></svg>
 
                 {/* <Image src={require('../assets/LeftArrow.png')} className=''></Image> */}
 
