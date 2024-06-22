@@ -5,7 +5,7 @@ import { Image } from 'react-bootstrap';
 const LabTest = () => {
     return (
         <Container>
-            <div class="container py-5">
+            <div class="py-5">
                 <div class="row align-items-center justify-content-evenly text-center">
                     <div class="col-sm">
                         <Image src={require('../assets/drop.png')} fluid width={50} className='mb-4'></Image>
